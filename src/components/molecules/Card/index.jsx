@@ -8,12 +8,12 @@ function PokeCard({ pokemon }) {
   const { data, isError, isLoading } = getApi(url);
 
   const loadData = () => {
-    const title = data.name ? data.name : null;
-    const img = data.sprites.front_default ? data.sprites.front_default : null;
+    const title = data.name ? data.name : '';
+    const img = data.sprites.front_default ? data.sprites.front_default : '';
 
     return <div className={style.card_style}>
-      {title && <Title title={title} />}
-      {img && <Image src={img} alt={title} />}
+      <Title title={title} />
+      <Image src={img} alt={title} />
       <Button content='Mais detalhes' />
     </div>; 
   }
