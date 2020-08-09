@@ -1,4 +1,4 @@
-import PokeCard from './PokeCard';
+import PokeCard from './Card';
 import PokePage from './PokePage';
 
 export {

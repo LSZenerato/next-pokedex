@@ -1,7 +1,11 @@
-import PokeButton from './PokeButton';
-import PokeDesc from './PokeDesc';
+import Button from './Button';
+import Title from './Title';
+import Desc from './Desc';
+import Image from './Image';
 
 export {
-    PokeButton,
-    PokeDesc
+    Button,
+    Title,
+    Desc,
+    Image
 }
