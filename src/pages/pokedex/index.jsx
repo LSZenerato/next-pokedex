@@ -2,6 +2,8 @@ import React from 'react';
 import PokeApi from '../../requests/getPokemon';
 import { PokemonList } from '../../components/organisms';
 
+import PokedexContext from "./context.jsx";
+
 function Pokedex() {
     const { data, isError, isLoading } = PokeApi('');
 
