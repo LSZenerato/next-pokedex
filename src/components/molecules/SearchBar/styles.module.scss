@@ -1,0 +1,37 @@
+.searchBar_div {
+    box-shadow:  6px 2px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.searchBar_top_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background: #ffb300;
+    height: 20px;
+}
+
+.searchBar_bottom_div { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background: #fff;
+}
+
+.searchBar_btn {
+    width: fit-content;
+    height: 50px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background: #fff;
+    color: #222;
+    cursor: pointer;
+}
+
+.searchBar_btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.3);
+}

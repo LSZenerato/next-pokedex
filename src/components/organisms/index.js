@@ -1,7 +1,9 @@
 import PokemonList from './PokemonList';
 import PokemonDetails from './PokemonDetails';
+import Header from './Header';
 
 export {
     PokemonList,
-    PokemonDetails
+    PokemonDetails,
+    Header
 }

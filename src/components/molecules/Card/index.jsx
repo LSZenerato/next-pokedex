@@ -12,9 +12,9 @@ function PokeCard({ pokemon }) {
     const img = data.sprites.front_default ? data.sprites.front_default : '';
 
     return <div className={style.card_style}>
-      <Title title={title} />
+      <Title> {title} </Title>
       <Image src={img} alt={title} />
-      <Button content='Mais detalhes' />
+      <Button> Ver detalhes </Button>
     </div>; 
   }
 
