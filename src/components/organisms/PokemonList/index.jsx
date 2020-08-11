@@ -11,7 +11,7 @@ function PokemonList() {
   const [ link, setLink ] = useState("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=20");
   const { data, isError, isLoading } = useApi(link);
 
-  const callback = () => alert('Olá');
+  const callback2 = () => alert('Olá');
 
   const map = () => data.results.map((pokemon, index) => {
     return <PokeCard key={index} pokemon={pokemon} />
@@ -19,11 +19,11 @@ function PokemonList() {
 
   return isLoading ? <Loading />
     : isError ? null
-    : <MyContext.Provider value={{ callback }}>
+    : <MyContext.Provider value={{ callback2 }}>
       <div className={style.grid}>
       {map()}
-      <button onClick={() => setLink(data.next)}> Load more</button>
     </div>
+    <button onClick={() => setLink(data.next)}> Load more</button>
     </MyContext.Provider>;
 }
 

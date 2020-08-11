@@ -15,7 +15,7 @@ function PokeCard({ pokemon }) {
       <Title> {title} </Title>
       <Image src={img} alt={title} />
       <Button> Ver detalhes </Button>
-    </div>; 
+    </div>;
   }
 
   return isError || isLoading ? null : loadData();
