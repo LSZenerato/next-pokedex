@@ -5,3 +5,16 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
     grid-gap: 40px 10px;
 }
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

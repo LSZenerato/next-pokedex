@@ -1,13 +1,12 @@
 import React from 'react';
 import { SearchBar } from '../../molecules';
-import Context from '../../../context/context';
+import Context from '../../../context';
 
 function Header() {
 
   const searchPokemon = () => alert('Buscar pokemon');
-  const blaPokemon = (txt) => alert(txt);
 
-  return <Context.Provider value={{ callback: searchPokemon, callback2: blaPokemon }} >
+  return <Context.Provider value={{ callback: searchPokemon }} >
     <div>
       <SearchBar />
     </div>

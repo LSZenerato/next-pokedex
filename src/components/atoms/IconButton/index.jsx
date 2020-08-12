@@ -7,7 +7,7 @@ function PokeButton({ children, className }) {
 
   return (
     <button 
-      className={className ? className : `${style.button_div} ${style.red}`} 
+      className={className ? className : `${style.button_div} ${style.red} ${style.icon}`} 
       onClick={() => callback('Diguxo')} > 
       {children}
     </button>

@@ -1,8 +1,5 @@
-import { Header, PokemonList } from '../../organisms';
+import { Header, PokemonList, Footer } from '../../organisms';
 
 export default function Home() {
-    return <div>
-        <Header />
-        <PokemonList />
-    </div>
+    return <PokemonList />
 }

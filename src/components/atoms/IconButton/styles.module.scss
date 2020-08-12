@@ -1,0 +1,19 @@
+.button_div {
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50px;
+    background: #ffb300;
+    color: #222;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0,0, 0, 0.3);
+}
+
+.button_div:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.3);
+}
+
+.icon {
+    font-size: 1rem;
+    color: white;
+}
