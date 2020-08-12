@@ -7,7 +7,7 @@ function SearchBar() {
     <div className={styles.searchBar_top_div} />
     <div className={styles.searchBar_bottom_div}>
       <Image className={styles.searchBar_img} src="https://external-preview.redd.it/tQged7mKJ3cUpNMq5IMeceZvyKP3cTyHqhNmKEQ0Vv8.png?auto=webp&s=fb5fd61cae0bc9cde2bc2a006b1e2aeb0c935ce9" alt="logo" />
-      <Button className={styles.searchBar_btn} > Buscar diguxo </Button>
+      <Button className={styles.searchBar_btn} > Buscar </Button>
     </div>
   </div>;
 }

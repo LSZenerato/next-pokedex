@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import useApi from '../../requests/getApi';
+import useApi from '../../utils/requests/getApi';
 
 function Teste() {
   const { data, isError, isLoading } = useApi("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=10");

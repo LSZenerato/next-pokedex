@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import getApi from '../../../requests/getApi';
+import getApi from '../../../utils/requests/getApi';
 import style from './styles.module.scss';
 import { Title, Button, Image } from '../../atoms';
 

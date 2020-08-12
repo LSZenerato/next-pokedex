@@ -1,5 +1,5 @@
-import { Header, PokemonList, Footer } from '../../organisms';
+import { PokemonList } from '../../organisms';
 
-export default function Home() {
+export default function Home(z) {
     return <PokemonList />
 }

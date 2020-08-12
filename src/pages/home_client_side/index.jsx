@@ -1,5 +1,5 @@
 import React from 'react';
-import getApiData from '../../requests/getApiData';
+import getApiData from '../../utils/requests/getApi';
 
 function Home() {
     const { data, isLoading, isError } = getApiData('https://pokeapi.co/api/v2/pokemon');

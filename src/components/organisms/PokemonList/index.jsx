@@ -1,14 +1,14 @@
 import React, { useState, createContext } from 'react';
 import style from './styles.module.scss';
 import { PokeCard } from '../../molecules';
-import useApi from '../../../requests/getApi';
+import useApi from '../../../utils/requests/getApi';
 import Loading from '../../atoms/Loading';
 import { IconButton } from '../../atoms';
 import { FaPlus } from 'react-icons/fa';
-import Context from '../../../context';
+import Context from '../../../utils/context';
 
 function PokemonList() {
-  const [ link, setLink ] = useState("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=10");
+  const [ link, setLink ] = useState("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=20");
   const { data, isError, isLoading } = useApi(link);
 
   const loadMore = () => setLink(data.next);
