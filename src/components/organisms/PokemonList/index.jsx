@@ -32,10 +32,10 @@ function PokemonList() {
 
   return isLoading ? <Loading />
     : isError ? null
-    : <>
+    : <div>
       { ListGenerator() }
       { ShowButton() }
-    </>;
+    </div>;
 }
 
 export default PokemonList;
